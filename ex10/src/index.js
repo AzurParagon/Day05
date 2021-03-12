@@ -1,10 +1,9 @@
 function main(){
     // Only change code below this line
-    var lastName = "Doe";
-    var lastNameLenght = lastName.length;
+    var myString = "Jello World";
+    myString = "Hello World";
     // Only change code above this line
-    return lastNameLenght;
-
+    return myString;
 }
 
 console.log(main());

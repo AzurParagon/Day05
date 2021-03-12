@@ -1,10 +1,10 @@
 function main(){
     // Only change code below this line
     var lastName = "Doe";
-    var lastNameLenght = lastName.length;
+    var firstLetterOfLastName = " ";
+    firstLetterOfLastName = lastName[0];
     // Only change code above this line
-    return lastNameLenght;
-
+    return firstLetterOfLastName;
 }
 
 console.log(main());
