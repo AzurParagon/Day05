@@ -1,10 +1,9 @@
 function main() {
     // Only change code below this line
-    var someAdjective = "the best!";
-    var myString = "Mistral is ";
-    myString += someAdjective;
+    var lastName = "Tesla";
+    var lastLetterOfLastName = lastName[lastName.length -1];
     // Only change code above this line
-    return myString;
+    return lastLetterOfLastName;
 
 }
 
